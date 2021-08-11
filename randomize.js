@@ -15,6 +15,8 @@ $(document).ready(function() {
 
     var link = document.getElementById("link")
     link.setAttribute("href", urls[Math.floor(Math.random() * 12)]);
+
+    $("#link").trigger("click");
 })
 
 
