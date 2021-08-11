@@ -12,5 +12,5 @@ $(document).ready(function(){
 "https://docs.google.com/forms/d/e/1FAIpQLSfFzw_w9fmSZ94CoMJwb71Ro6Jck5NWxMa3t0Z-Lhhz2CDZCA/viewform?usp=sf_link",
 "https://docs.google.com/forms/d/e/1FAIpQLSfP7SwgvXp-6KWU8OvR9lKBU8QPHIQpxIb2X19nwdIShbhhmA/viewform?usp=sf_link"]
     
-    $(location).attr('href', urls[Math.random(12));
+    window.location.href = urls[Math.random(12)]
 })
