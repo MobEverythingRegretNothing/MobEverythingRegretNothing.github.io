@@ -1,3 +1,0 @@
-# MobEverythingRegretNothing.github.io
-
-Testing
