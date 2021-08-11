@@ -14,7 +14,9 @@ $(document).ready(function() {
     "https://docs.google.com/forms/d/e/1FAIpQLSfP7SwgvXp-6KWU8OvR9lKBU8QPHIQpxIb2X19nwdIShbhhmA/viewform?usp=sf_link"];
 
     var link = document.getElementById("link")
-    link.setAttribute("href", urls[Math.random(12)]);
+    console.log(Math.random(12));
+    console.log(Math.random(12));
+    link.setAttribute("href", "https://docs.google.com/forms/d/e/1FAIpQLSfP7SwgvXp-6KWU8OvR9lKBU8QPHIQpxIb2X19nwdIShbhhmA/viewform?usp=sf_link");
 
 })
 
